@@ -12,6 +12,6 @@ node ('master') {
     }
 
     stage('Deploy') {
-        sh 'echo "This is Deploy"'
+        sh 'echo "This is Deploy. They-end"'
     }
 }
