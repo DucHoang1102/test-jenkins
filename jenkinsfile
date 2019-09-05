@@ -1,0 +1,17 @@
+// run in 'master' node
+
+node ('master') {
+    checkout scm 
+
+    stage('Build') {
+        sh 'echo "This is build"'
+    }
+
+    stage('Test') {
+        sh 'echo "This is Test"'
+    }
+
+    stage('Deploy') {
+        sh 'echo "This is Deploy"'
+    }
+}
