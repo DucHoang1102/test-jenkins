@@ -3,6 +3,7 @@ node ('master'){
 
     stage('Build') {
         sh 'echo "Build processing 1"'
+        sh 'touch "duchoang.txt"'
         sh 'echo "Build processing 2"'
     }
 
